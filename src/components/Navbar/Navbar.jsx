@@ -45,7 +45,7 @@ function Navbar() {
         <>
             <nav>
                 <div className="nav">
-                <Link to="Home" offset={-150} ><h2>Jah<span>id.</span></h2></Link>
+                <Link to="Home" offset={-150} ><h2>J<span>@#!</span>D.</h2></Link>
                 <ul>
                     <li><Link to="Home" activeClass='active' offset={-150} spy={true} onClick={navclose}><i className='fas fa-home' ></i>Home</Link></li>
                     <li><Link to="About" activeClass='active' offset={-100} spy={true} onClick={navclose}><i className='fas fa-user' ></i>About</Link></li>
@@ -55,7 +55,7 @@ function Navbar() {
                 </ul>
                 </div>
                 <div className="nav-mobile" >
-                    <Link to="Home" offset={-150} ><h2>Portfo<span>lio.</span></h2></Link>
+                    <Link to="Home" offset={-150} ><h2>J<span>@#!</span>D.</h2></Link>
                     <div className="nav-mobile-btn" onClick={toggle}>
                     <span><i className='fas fa-bars'></i></span>
                     </div>

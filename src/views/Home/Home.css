@@ -5,6 +5,9 @@
 }
 .home-flex{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15rem;
 }
 .home p{
     color:var(--white);   
@@ -44,11 +47,14 @@
     font-weight: bold;
 }
 .home .right-content{
-    padding: 2rem 0rem;
+    /* padding: 2rem 0rem; */
     width: 50%;
     overflow-x: hidden;
     display: flex;
-    margin: auto;
+    /* margin: auto; */
+}
+
+.home .right-content .right-img {
     background-image: url(/src/images/1687026483142.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -59,9 +65,9 @@
     width: 300px;
     height: 300px;
     animation: profile_animation 8s ease-in-out infinite 1s;
-}
-
-@keyframes profile_animation {
+  }
+  
+  @keyframes profile_animation {
     0% {
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
@@ -73,34 +79,41 @@
     }
   }
 
-
 @media only screen and (max-width: 1000px) {
     .home{
         padding: 0rem 0rem;
         height: 80vh;
     }
     .home-flex{
-        display: block;
+        /* display: block; */
+        display: flex;
+        flex-direction: column;
+        /* flex-direction: column-reverse; */
+        gap: 0;
     }
     .home .left-content{
         width: 100%;
         padding-left: 2rem;
         padding-top: 17vmax;
+        padding-bottom: 2rem;
     }
-    .home .right-content{
+    /* .home .right-content{
         position: relative;
         top: -500px;
         right: -200px;
         height: auto;
-    }
+    } */
   }
 @media only screen and (max-width: 870px) {
     .home .right-content{
-        position: relative;
+        padding: 0%;
+        width: 250px;
+        /* height: 250px; */
+        /* position: relative;
         top: -400px;
-        right: -250px;
+        right: -250px; */
     }
-    /* .home .right-content img{
+    /* .home .right-content .right-img{
         width: 90%;
         height: 90%;
     } */
@@ -118,22 +131,20 @@
     .home h2{
         font-size: 1.7rem;
     }
-    .home .left-content{
+    /* .home .left-content{
         padding-top: 15rem;
-    }
+    } */
     .home .left-content a{
         font-size: 1.2rem;
         padding: 0.6rem 1rem;
         border-radius: 0.2rem;
     }
-    .home .right-content{
+    /* .home .right-content{
         position: absolute;
-        top: 6rem;
-        right: 60px;
-        height: 50%;
-        width: 50%;
-    }
-    /* .home .right-content img{
+        top: 5rem;
+        right: 50px;
+    } */
+    /* .home .right-content .right-img{
         width: 100%;
         height: 100%;
     } */

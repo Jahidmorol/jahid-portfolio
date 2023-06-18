@@ -16,14 +16,18 @@ function Home() {
     <>
     <div id='Home' className='home'>
       <div className="home-flex">
-        <div className="left-content" data-aos = "fade-down" data-aos-delay= "2000">
+        <div className="left-content" >
+        {/* data-aos = "fade-down" data-aos-delay= "2000" */}
           <p>Hello, My name is</p>
           <h1>Jahid Hasan</h1>
           <h2>And I'm a  <span className="typing"></span></h2>
           <a href="https://drive.google.com/file/d/1GUcUB-QSnvXWPcRKtNhjiHVBs2a-2HRl/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
         </div>
-        <div className="right-content" data-aos = "fade-up" data-aos-delay= "2000">
+        <div className='right-content' >
+        <div className="right-img" >
           {/* <img src={img8} alt="" /> */}
+          {/* data-aos = "fade-up" data-aos-delay= "1000" */}
+        </div>
         </div>
       </div>
     </div>
