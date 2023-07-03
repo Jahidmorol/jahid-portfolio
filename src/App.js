@@ -9,6 +9,7 @@ import Service from "./views/Service/Service"
 import Project from './views/Project/Project';
 import Contact from "./views/Contact/Contact"
 import Footer from './components/Footer/Footer'
+import Skills from './views/Skills/Skills';
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <About/>
       <Service/>
       <Project/>
+      <Skills/>
       <Contact/>
       <Footer/>
     </div> 

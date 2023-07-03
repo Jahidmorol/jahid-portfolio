@@ -51,6 +51,7 @@ function Navbar() {
                     <li><Link to="About" activeClass='active' offset={-100} spy={true} onClick={navclose}><i className='fas fa-user' ></i>About</Link></li>
                     <li><Link to="Services" activeClass='active' offset={-100} spy={true}  onClick={navclose}><i className='fas fa-cogs' ></i>Services</Link></li>
                     <li><Link to="Project" activeClass='active' offset={-100} spy={true}  onClick={navclose}><i className='fas fa-archive' ></i>Projects</Link></li>
+                    <li><Link to="Skills" activeClass='active' offset={-100} spy={true}  onClick={navclose}><i className='fas fa-archive' ></i>Skils</Link></li>
                     <li><Link to="Contact" activeClass='active' offset={-100} spy={true}  onClick={navclose}><i className='fas fa-envelope' ></i>Contact</Link></li>
                 </ul>
                 </div>

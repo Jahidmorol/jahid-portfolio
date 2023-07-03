@@ -1,4 +1,6 @@
 .nav{
+    display: flex;
+    justify-content: space-between;
     top: 0;
     z-index: 9;
     width: 100%;
@@ -8,6 +10,7 @@
     padding: 0.8rem;
     background-color: var(--black-body);
     font-family: "Montserrat", sans-serif;
+    padding: 1rem 4.5rem;
 }
 .nav-sticky{
     background-color: var(--black-low);
@@ -55,7 +58,7 @@
 
 .nav h2{
     font-size: 2rem;
-    padding: 0.2rem 3rem;
+    /* padding: 0.2rem 3rem; */
     color: var(--white);
     cursor: pointer;
 }
@@ -70,7 +73,8 @@
     text-decoration: none;
     display: flex;
     position: relative;
-    left: 20rem;
+    /* padding: 0.2rem 3rem; */
+    /* left: 20rem;------------------------------- */
 }
 .nav ul li{
     padding: 0.5rem 1rem;

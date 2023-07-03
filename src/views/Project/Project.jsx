@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 import 'aos/dist/aos.css'
 
 import ProjectBox from '../../components/ProjectBox/ProjectBox'
-import img7 from  '../../images/TextUtils.png'
+import img7 from  '../../images/summer-camp-a30fd.web.app_ (1).png'
 import img5 from  '../../images/Portfolio.png'
 import img3 from  '../../images/FoodDelivery.png'
 import img4 from  '../../images/Gym.png'
@@ -26,7 +26,7 @@ function Project() {
       <div data-aos = "fade-up">
         <div className="boxes">
           <div className="carousel owl-carousel">
-            <ProjectBox title = "TextUtils using React" img= {img7} link = "https://github.com/ahmedrohailawan/TextUtils_Using_React_JS"  />
+            <ProjectBox title = "Focus Sports-Camp Website" img= {img7} link = "https://github.com/Jahidmorol/focus-sports-camp-client" />
             <ProjectBox title = "Portfolio Website" img= {img5} link = "https://github.com/ahmedrohailawan/portfolio_website_using_html_css_and_js"  />
             <ProjectBox title = "Food Delivery Website" img= {img3} link = "https://github.com/ahmedrohailawan/Food-Delivery-project"  />
             <ProjectBox title = "Gym Website" img= {img4} link = "https://github.com/ahmedrohailawan/Gym-Project"  />

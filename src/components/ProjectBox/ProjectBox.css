@@ -1,8 +1,10 @@
 .project .projectbox{
     margin: .5rem;
     border: 2px solid var(--black-body);
+    /* height: 16rem; */
 }
 .project .projectbox img{
+    height: 16rem;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
 }
